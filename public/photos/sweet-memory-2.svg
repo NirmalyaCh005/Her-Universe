@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="coffeeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFE4D6" />
+      <stop offset="50%" stop-color="#FFD1BA" />
+      <stop offset="100%" stop-color="#FCEEE6" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" rx="16" fill="url(#coffeeGrad)" />
+  <!-- Table surface -->
+  <ellipse cx="200" cy="230" rx="170" ry="45" fill="#FFFFFF" opacity="0.6" />
+  <!-- Left Coffee Cup (Pink) -->
+  <path d="M 130 140 L 140 200 Q 165 210 190 200 L 200 140 Z" fill="#FF6FAE" />
+  <ellipse cx="165" cy="140" rx="35" ry="10" fill="#4B241C" />
+  <ellipse cx="165" cy="140" rx="30" ry="8" fill="#D29985" />
+  <!-- Cup Handle -->
+  <path d="M 195 155 Q 215 170 190 185" fill="none" stroke="#FF6FAE" stroke-width="6" stroke-linecap="round" />
+  <!-- Right Cup (Pastel Blue/Lavender) -->
+  <path d="M 210 140 L 220 200 Q 245 210 270 200 L 280 140 Z" fill="#B3C5FF" />
+  <ellipse cx="245" cy="140" rx="35" ry="10" fill="#4B241C" />
+  <ellipse cx="245" cy="140" rx="30" ry="8" fill="#D29985" />
+  <!-- Steam with Hearts -->
+  <path d="M 165 125 Q 160 100 170 85" fill="none" stroke="#FFA3C5" stroke-width="2.5" stroke-linecap="round" opacity="0.7" />
+  <path d="M 245 125 Q 250 100 240 85" fill="none" stroke="#FFA3C5" stroke-width="2.5" stroke-linecap="round" opacity="0.7" />
+  <text x="205" y="80" text-anchor="middle" font-size="20">💕</text>
+  <text x="200" y="260" text-anchor="middle" font-family="'Outfit', sans-serif" font-size="14" font-weight="bold" fill="#54243B">
+    Cozy Coffee & Sweet Talks ☕
+  </text>
+</svg>

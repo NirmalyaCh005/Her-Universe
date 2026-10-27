@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="flowerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E2D1F9" />
+      <stop offset="50%" stop-color="#FCD5E5" />
+      <stop offset="100%" stop-color="#FFF0F5" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" rx="16" fill="url(#flowerGrad)" />
+  <!-- Sparkles & Confetti -->
+  <text x="70" y="70" font-size="22">✨</text>
+  <text x="320" y="80" font-size="24">🎉</text>
+  <text x="90" y="240" font-size="20">🌸</text>
+  <text x="310" y="230" font-size="22">🌷</text>
+  <!-- Teddy Bear with Bouquet -->
+  <text x="200" y="170" text-anchor="middle" font-size="80">🧸</text>
+  <text x="235" y="180" text-anchor="middle" font-size="40">💐</text>
+  <text x="200" y="260" text-anchor="middle" font-family="'Outfit', sans-serif" font-size="14" font-weight="bold" fill="#54243B">
+    Endless Smiles & Joy 💐
+  </text>
+</svg>

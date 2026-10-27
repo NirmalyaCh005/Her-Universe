@@ -1,0 +1,29 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model GameScore {
+  id          Int      @id @default(autoincrement())
+  gameType    String
+  score       Int
+  completedAt DateTime @default(now())
+}
+
+model GameProgress {
+  id          Int      @id @default(autoincrement())
+  activityId  String   @unique
+  completed   Boolean  @default(false)
+  updatedAt   DateTime @updatedAt
+}
+
+model BirthdayMessage {
+  id         Int      @id @default(autoincrement())
+  messageKey String   @unique
+  content    String
+  updatedAt  DateTime @updatedAt
+}

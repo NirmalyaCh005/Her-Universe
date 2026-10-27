@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="sunsetGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FF9A9E" />
+      <stop offset="50%" stop-color="#FECFEF" />
+      <stop offset="100%" stop-color="#A1C4FD" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" rx="16" fill="url(#sunsetGrad)" />
+  <!-- Golden Sun -->
+  <circle cx="200" cy="150" r="45" fill="#FFEAA7" opacity="0.9" />
+  <circle cx="200" cy="150" r="60" fill="#FFEAA7" opacity="0.3" />
+  <!-- Ocean waves -->
+  <path d="M 0 190 Q 100 180 200 190 T 400 190 L 400 300 L 0 300 Z" fill="#88B0ED" opacity="0.5" />
+  <path d="M 0 215 Q 100 205 200 215 T 400 215 L 400 300 L 0 300 Z" fill="#759FE0" opacity="0.7" />
+  <!-- Cute Silhouette of Holding Hands -->
+  <text x="200" y="245" text-anchor="middle" font-size="34">👫</text>
+  <text x="200" y="275" text-anchor="middle" font-family="'Outfit', sans-serif" font-size="14" font-weight="bold" fill="#3D1A54">
+    Golden Sunset Walks 🌅
+  </text>
+</svg>

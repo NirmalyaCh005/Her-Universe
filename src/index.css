@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-tap-highlight-color: transparent;
+  }
+  
+  body {
+    background-color: #FFF5FA;
+    color: #54243B;
+    overflow-x: hidden;
+  }
+
+  /* Custom sweet pink scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #FFF5FA;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #FFC0D9;
+    border-radius: 9999px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #FF6FAE;
+  }
+}
+
+@layer components {
+  /* Glassmorphism Romantic Cards */
+  .glass-card {
+    background: rgba(255, 255, 255, 0.72);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 192, 217, 0.6);
+    box-shadow: 0 10px 30px -5px rgba(231, 84, 128, 0.12);
+  }
+
+  .glass-card-hover {
+    transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+  }
+  .glass-card-hover:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 15px 35px -5px rgba(255, 111, 174, 0.28);
+    border-color: rgba(255, 111, 174, 0.8);
+  }
+
+  /* Dreamy Glowing Buttons */
+  .btn-pink-glow {
+    background: linear-gradient(135deg, #FF6FAE 0%, #FF3F8E 100%);
+    color: #FFFFFF;
+    box-shadow: 0 4px 18px rgba(255, 63, 142, 0.35);
+    transition: all 0.25s ease;
+  }
+  .btn-pink-glow:hover {
+    transform: translateY(-2px) scale(1.02);
+    box-shadow: 0 6px 24px rgba(255, 63, 142, 0.5);
+  }
+  .btn-pink-glow:active {
+    transform: translateY(0) scale(0.98);
+  }
+
+  /* Paper texture for romantic letters */
+  .letter-paper {
+    background: linear-gradient(to bottom, #FFFDF8 0%, #FFF9F3 100%);
+    box-shadow: 0 15px 35px rgba(84, 36, 59, 0.1), inset 0 0 40px rgba(255, 220, 200, 0.3);
+    border: 1px solid rgba(230, 200, 180, 0.5);
+  }
+
+  /* Cadbury Purple Accents */
+  .cadbury-badge {
+    background: linear-gradient(135deg, #51247A 0%, #351354 100%);
+    box-shadow: 0 4px 15px rgba(81, 36, 122, 0.4);
+  }
+}
+
+/* Reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
